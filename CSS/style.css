@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*  {
+    font-family: Calibri;
+}
+
+body {
+    background-color: mediumslateblue;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: black;
+    height: 60px;
+    width: 50%;
+    margin: 40px auto 0;
+    border-radius: 5px 5px 0 0;
+}
+
+h2, .button-red {
+    color: white;
+}
+
+.wrapper {
+    width: 50%;
+    height: 660px;
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.form-body {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+
+form {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-label {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+    margin: 0;
+}
+
+.form-label-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0;
+}
+
+.form-bottom-label {
+    display: inline-block;
+    width: 40%;
+}
+
+::placeholder, .form-sub-label, select {
+    display: block;
+    font-size: 16px;
+    color: darkgrey;
+}
+
+input, select {
+    background-color: lightgrey;
+    height: 40px;
+    border-radius: 5px;
+    border: lightgray;
+    width: 100%;
+}
+
+.w-label {
+    width: 20%;
+}
+
+.w-sub-phone {
+    width: 60%;
+}
+
+.m-top {
+    margin-top: 40px;
+}
+
+.p-left {
+    padding-left: 5px;
+}
+
+.radio-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.radio-input {
+    width: 20px;
+    margin: 0;
+}
+
+.radio-label {
+    margin-right: 30px;
+}
+
+.button-red {
+    background-color: crimson;
+    width: 25%;
+}
+
+.button_body {
+    display: block;
+}
